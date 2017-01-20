@@ -1,0 +1,1032 @@
+assert_unreachable  =
+	____
+
+idris_crash  =
+	____
+
+mkForeignPrim  =
+	____
+
+prim__asPtr {op0} =
+	LExternal prim__asPtr({op0})
+
+prim__eqManagedPtr {op0} {op1} =
+	LExternal prim__eqManagedPtr({op0}, {op1})
+
+prim__eqPtr {op0} {op1} =
+	LExternal prim__eqPtr({op0}, {op1})
+
+prim__null  =
+	LExternal prim__null()
+
+prim__peek16 {op0} {op1} {op2} =
+	LExternal prim__peek16({op0}, {op1}, {op2})
+
+prim__peek32 {op0} {op1} {op2} =
+	LExternal prim__peek32({op0}, {op1}, {op2})
+
+prim__peek64 {op0} {op1} {op2} =
+	LExternal prim__peek64({op0}, {op1}, {op2})
+
+prim__peek8 {op0} {op1} {op2} =
+	LExternal prim__peek8({op0}, {op1}, {op2})
+
+prim__peekDouble {op0} {op1} {op2} =
+	LExternal prim__peekDouble({op0}, {op1}, {op2})
+
+prim__peekPtr {op0} {op1} {op2} =
+	LExternal prim__peekPtr({op0}, {op1}, {op2})
+
+prim__peekSingle {op0} {op1} {op2} =
+	LExternal prim__peekSingle({op0}, {op1}, {op2})
+
+prim__poke16 {op0} {op1} {op2} {op3} =
+	LExternal prim__poke16({op0}, {op1}, {op2}, {op3})
+
+prim__poke32 {op0} {op1} {op2} {op3} =
+	LExternal prim__poke32({op0}, {op1}, {op2}, {op3})
+
+prim__poke64 {op0} {op1} {op2} {op3} =
+	LExternal prim__poke64({op0}, {op1}, {op2}, {op3})
+
+prim__poke8 {op0} {op1} {op2} {op3} =
+	LExternal prim__poke8({op0}, {op1}, {op2}, {op3})
+
+prim__pokeDouble {op0} {op1} {op2} {op3} =
+	LExternal prim__pokeDouble({op0}, {op1}, {op2}, {op3})
+
+prim__pokePtr {op0} {op1} {op2} {op3} =
+	LExternal prim__pokePtr({op0}, {op1}, {op2}, {op3})
+
+prim__pokeSingle {op0} {op1} {op2} {op3} =
+	LExternal prim__pokeSingle({op0}, {op1}, {op2}, {op3})
+
+prim__ptrOffset {op0} {op1} =
+	LExternal prim__ptrOffset({op0}, {op1})
+
+prim__readFile {op0} {op1} =
+	LExternal prim__readFile({op0}, {op1})
+
+prim__registerPtr {op0} {op1} =
+	LExternal prim__registerPtr({op0}, {op1})
+
+prim__sizeofPtr  =
+	LExternal prim__sizeofPtr()
+
+prim__stderr  =
+	LExternal prim__stderr()
+
+prim__stdin  =
+	LExternal prim__stdin()
+
+prim__stdout  =
+	LExternal prim__stdout()
+
+prim__vm {op0} =
+	LExternal prim__vm({op0})
+
+prim__writeFile {op0} {op1} {op2} =
+	LExternal prim__writeFile({op0}, {op1}, {op2})
+
+unsafePerformPrimIO  =
+	____
+
+Decidable.Equality.Decidable.Equality.Char implementation of Decidable.Equality.DecEq, method decEq, primitiveNotEq  =
+	____
+
+Decidable.Equality.Decidable.Equality.Int implementation of Decidable.Equality.DecEq, method decEq, primitiveNotEq  =
+	____
+
+Decidable.Equality.Decidable.Equality.Integer implementation of Decidable.Equality.DecEq, method decEq, primitiveNotEq  =
+	____
+
+Decidable.Equality.Decidable.Equality.ManagedPtr implementation of Decidable.Equality.DecEq, method decEq, primitiveNotEq  =
+	____
+
+Decidable.Equality.Decidable.Equality.Ptr implementation of Decidable.Equality.DecEq, method decEq, primitiveNotEq  =
+	____
+
+Decidable.Equality.Decidable.Equality.String implementation of Decidable.Equality.DecEq, method decEq, primitiveNotEq  =
+	____
+
+case block in Void at (casefun Void)  =
+	____
+
+<<Void eliminator>>  =
+	____
+
+data = 4
+
+data CData 0
+
+data Delay 0
+
+data DelayReason 0
+
+data Delayed 2
+
+data FFI 0
+
+data FFun 0
+
+data FRet 0
+
+data FTy 3
+
+data IO' 2
+
+data Infinite 0
+
+data JS_Float 0
+
+data JS_Fn 0
+
+data JS_FnBase 0
+
+data JS_FnIO 0
+
+data JS_FnT 0
+
+data JS_FnTypes 1
+
+data JS_IntChar 0
+
+data JS_IntNative 0
+
+data JS_IntT 0
+
+data JS_IntTypes 1
+
+data JS_Ptr 0
+
+data JS_Str 0
+
+data JS_Types 1
+
+data JS_Unit 0
+
+data JsFn 1
+
+data LazyValue 0
+
+data ManagedPtr 0
+
+data MkFFI 0
+
+data MkIO 0
+
+data MkJsFn 0
+
+data MkUnit 0
+
+data PrimIO 1
+
+data Prim__IO 0
+
+data Ptr 0
+
+data Refl 0
+
+data Symbol_ 1
+
+data TheWorld 0
+
+data Unit 0
+
+data Void 0
+
+data World 0
+
+data {__Infer0} 0
+
+data {__infer0} 0
+
+data Builtins.DPair 2
+
+data Builtins.MkDPair 0
+
+data Builtins.MkPair 0
+
+data Builtins.MkUPair 0
+
+data Builtins.Pair 2
+
+data Builtins.UPair 2
+
+data Decidable.Equality.DecEq 1
+
+data FFI_C.CFnPtr 1
+
+data FFI_C.C_Any 0
+
+data FFI_C.C_CData 0
+
+data FFI_C.C_Float 0
+
+data FFI_C.C_Fn 0
+
+data FFI_C.C_FnBase 0
+
+data FFI_C.C_FnIO 0
+
+data FFI_C.C_FnT 0
+
+data FFI_C.C_FnTypes 1
+
+data FFI_C.C_IntBits16 0
+
+data FFI_C.C_IntBits32 0
+
+data FFI_C.C_IntBits64 0
+
+data FFI_C.C_IntBits8 0
+
+data FFI_C.C_IntChar 0
+
+data FFI_C.C_IntNative 0
+
+data FFI_C.C_IntT 0
+
+data FFI_C.C_IntTypes 1
+
+data FFI_C.C_MPtr 0
+
+data FFI_C.C_Ptr 0
+
+data FFI_C.C_Str 0
+
+data FFI_C.C_Types 1
+
+data FFI_C.C_Unit 0
+
+data FFI_C.MkCFnPtr 0
+
+data FFI_C.MkRaw 0
+
+data FFI_C.Raw 1
+
+data FFI_Export.DHere 0
+
+data FFI_Export.DThere 0
+
+data FFI_Export.Data 0
+
+data FFI_Export.DataDefined 4
+
+data FFI_Export.End 0
+
+data FFI_Export.FFI_Base 3
+
+data FFI_Export.FFI_ExpType 0
+
+data FFI_Export.FFI_Export 3
+
+data FFI_Export.FFI_Exportable 3
+
+data FFI_Export.FFI_Fun 0
+
+data FFI_Export.FFI_IO 0
+
+data FFI_Export.FFI_Prim 0
+
+data FFI_Export.FFI_Ret 0
+
+data FFI_Export.Fun 0
+
+data ForeignEnv.:: 0
+
+data ForeignEnv.FEnv 2
+
+data ForeignEnv.Nil 0
+
+data Language.Reflection.Elab.Constraint 0
+
+data Language.Reflection.Elab.Constructor 0
+
+data Language.Reflection.Elab.ConstructorDefn 0
+
+data Language.Reflection.Elab.CtorArg 0
+
+data Language.Reflection.Elab.CtorField 0
+
+data Language.Reflection.Elab.CtorParameter 0
+
+data Language.Reflection.Elab.DataDefn 0
+
+data Language.Reflection.Elab.Datatype 0
+
+data Language.Reflection.Elab.Declare 0
+
+data Language.Reflection.Elab.DefineDatatype 0
+
+data Language.Reflection.Elab.DefineFun 0
+
+data Language.Reflection.Elab.Elab 1
+
+data Language.Reflection.Elab.Erased 0
+
+data Language.Reflection.Elab.Erasure 0
+
+data Language.Reflection.Elab.Explicit 0
+
+data Language.Reflection.Elab.Fixity 0
+
+data Language.Reflection.Elab.FunArg 0
+
+data Language.Reflection.Elab.FunClause 1
+
+data Language.Reflection.Elab.FunDefn 1
+
+data Language.Reflection.Elab.Implicit 0
+
+data Language.Reflection.Elab.Infix 0
+
+data Language.Reflection.Elab.Infixl 0
+
+data Language.Reflection.Elab.Infixr 0
+
+data Language.Reflection.Elab.MkDatatype 0
+
+data Language.Reflection.Elab.MkFunArg 0
+
+data Language.Reflection.Elab.MkFunClause 0
+
+data Language.Reflection.Elab.MkImpossibleClause 0
+
+data Language.Reflection.Elab.NotErased 0
+
+data Language.Reflection.Elab.Plicity 0
+
+data Language.Reflection.Elab.Prefix 0
+
+data Language.Reflection.Elab.Prim__AddImplementation 0
+
+data Language.Reflection.Elab.Prim__Apply 0
+
+data Language.Reflection.Elab.Prim__Attack 0
+
+data Language.Reflection.Elab.Prim__BindElab 0
+
+data Language.Reflection.Elab.Prim__Check 0
+
+data Language.Reflection.Elab.Prim__Claim 0
+
+data Language.Reflection.Elab.Prim__Compute 0
+
+data Language.Reflection.Elab.Prim__Converts 0
+
+data Language.Reflection.Elab.Prim__Debug 0
+
+data Language.Reflection.Elab.Prim__DeclareDatatype 0
+
+data Language.Reflection.Elab.Prim__DeclareType 0
+
+data Language.Reflection.Elab.Prim__DefineDatatype 0
+
+data Language.Reflection.Elab.Prim__DefineFunction 0
+
+data Language.Reflection.Elab.Prim__Env 0
+
+data Language.Reflection.Elab.Prim__Fail 0
+
+data Language.Reflection.Elab.Prim__Fill 0
+
+data Language.Reflection.Elab.Prim__Fixity 0
+
+data Language.Reflection.Elab.Prim__Focus 0
+
+data Language.Reflection.Elab.Prim__Forall 0
+
+data Language.Reflection.Elab.Prim__Gensym 0
+
+data Language.Reflection.Elab.Prim__Goal 0
+
+data Language.Reflection.Elab.Prim__Guess 0
+
+data Language.Reflection.Elab.Prim__Holes 0
+
+data Language.Reflection.Elab.Prim__Intro 0
+
+data Language.Reflection.Elab.Prim__IsTCName 0
+
+data Language.Reflection.Elab.Prim__LetBind 0
+
+data Language.Reflection.Elab.Prim__LookupArgs 0
+
+data Language.Reflection.Elab.Prim__LookupDatatype 0
+
+data Language.Reflection.Elab.Prim__LookupFunDefn 0
+
+data Language.Reflection.Elab.Prim__LookupTy 0
+
+data Language.Reflection.Elab.Prim__MatchApply 0
+
+data Language.Reflection.Elab.Prim__Metavar 0
+
+data Language.Reflection.Elab.Prim__Namespace 0
+
+data Language.Reflection.Elab.Prim__Normalise 0
+
+data Language.Reflection.Elab.Prim__PatBind 0
+
+data Language.Reflection.Elab.Prim__PatVar 0
+
+data Language.Reflection.Elab.Prim__PureElab 0
+
+data Language.Reflection.Elab.Prim__RecursiveElab 0
+
+data Language.Reflection.Elab.Prim__ResolveTC 0
+
+data Language.Reflection.Elab.Prim__Rewrite 0
+
+data Language.Reflection.Elab.Prim__Search 0
+
+data Language.Reflection.Elab.Prim__Solve 0
+
+data Language.Reflection.Elab.Prim__SourceLocation 0
+
+data Language.Reflection.Elab.Prim__Try 0
+
+data Language.Reflection.Elab.Prim__Unfocus 0
+
+data Language.Reflection.Elab.Prim__Whnf 0
+
+data Language.Reflection.Elab.TyConArg 0
+
+data Language.Reflection.Elab.TyConIndex 0
+
+data Language.Reflection.Elab.TyConParameter 0
+
+data Language.Reflection.Elab.TyDecl 0
+
+data Language.Reflection.Errors.AlreadyDefined 0
+
+data Language.Reflection.Errors.CantConvert 0
+
+data Language.Reflection.Errors.CantInferType 0
+
+data Language.Reflection.Errors.CantIntroduce 0
+
+data Language.Reflection.Errors.CantMatch 0
+
+data Language.Reflection.Errors.CantResolve 0
+
+data Language.Reflection.Errors.CantResolveAlts 0
+
+data Language.Reflection.Errors.CantSolveGoal 0
+
+data Language.Reflection.Errors.CantUnify 0
+
+data Language.Reflection.Errors.Err 0
+
+data Language.Reflection.Errors.Inaccessible 0
+
+data Language.Reflection.Errors.IncompleteTerm 0
+
+data Language.Reflection.Errors.InfiniteUnify 0
+
+data Language.Reflection.Errors.InternalMsg 0
+
+data Language.Reflection.Errors.InvalidTCArg 0
+
+data Language.Reflection.Errors.LoadingFailed 0
+
+data Language.Reflection.Errors.Msg 0
+
+data Language.Reflection.Errors.NoEliminator 0
+
+data Language.Reflection.Errors.NoRewriting 0
+
+data Language.Reflection.Errors.NoSuchVariable 0
+
+data Language.Reflection.Errors.NoTypeDecl 0
+
+data Language.Reflection.Errors.NoValidAlts 0
+
+data Language.Reflection.Errors.NonCollapsiblePostulate 0
+
+data Language.Reflection.Errors.NonFunctionType 0
+
+data Language.Reflection.Errors.NotEquality 0
+
+data Language.Reflection.Errors.NotInjective 0
+
+data Language.Reflection.Errors.ProgramLineComment 0
+
+data Language.Reflection.Errors.ProofSearchFail 0
+
+data Language.Reflection.Errors.ProviderError 0
+
+data Language.Reflection.Errors.TooManyArguments 0
+
+data Language.Reflection.Errors.UnifyScope 0
+
+data Language.Reflection.Errors.UniverseError 0
+
+data Language.Reflection.Errors.UnknownImplicit 0
+
+data Language.Reflection.Errors.WithFnType 0
+
+data Language.Reflection.ATDouble 0
+
+data Language.Reflection.ATInt 0
+
+data Language.Reflection.AType 0
+
+data Language.Reflection.AllTypes 0
+
+data Language.Reflection.App 0
+
+data Language.Reflection.ApplyTactic 0
+
+data Language.Reflection.ArithTy 0
+
+data Language.Reflection.B16 0
+
+data Language.Reflection.B32 0
+
+data Language.Reflection.B64 0
+
+data Language.Reflection.B8 0
+
+data Language.Reflection.BI 0
+
+data Language.Reflection.Bind 0
+
+data Language.Reflection.Binder 1
+
+data Language.Reflection.Bound 0
+
+data Language.Reflection.ByReflection 0
+
+data Language.Reflection.Case 0
+
+data Language.Reflection.CaseN 0
+
+data Language.Reflection.Ch 0
+
+data Language.Reflection.Claim 0
+
+data Language.Reflection.Compute 0
+
+data Language.Reflection.Const 0
+
+data Language.Reflection.DCon 0
+
+data Language.Reflection.ElimN 0
+
+data Language.Reflection.Erased 0
+
+data Language.Reflection.ErrorReportPart 0
+
+data Language.Reflection.Exact 0
+
+data Language.Reflection.Fail 0
+
+data Language.Reflection.FileLoc 0
+
+data Language.Reflection.Fill 0
+
+data Language.Reflection.Fl 0
+
+data Language.Reflection.Focus 0
+
+data Language.Reflection.Forgot 0
+
+data Language.Reflection.GHole 0
+
+data Language.Reflection.GoalType 0
+
+data Language.Reflection.Guess 0
+
+data Language.Reflection.Hole 0
+
+data Language.Reflection.I 0
+
+data Language.Reflection.IT16 0
+
+data Language.Reflection.IT32 0
+
+data Language.Reflection.IT64 0
+
+data Language.Reflection.IT8 0
+
+data Language.Reflection.ITBig 0
+
+data Language.Reflection.ITChar 0
+
+data Language.Reflection.ITFixed 0
+
+data Language.Reflection.ITNative 0
+
+data Language.Reflection.Implementation 0
+
+data Language.Reflection.ImplementationCtorN 0
+
+data Language.Reflection.ImplementationN 0
+
+data Language.Reflection.Induction 0
+
+data Language.Reflection.IntTy 0
+
+data Language.Reflection.Intro 0
+
+data Language.Reflection.Intros 0
+
+data Language.Reflection.Lam 0
+
+data Language.Reflection.Let 0
+
+data Language.Reflection.LetTac 0
+
+data Language.Reflection.LetTacTy 0
+
+data Language.Reflection.MN 0
+
+data Language.Reflection.MetaN 0
+
+data Language.Reflection.MethodN 0
+
+data Language.Reflection.NS 0
+
+data Language.Reflection.NamePart 0
+
+data Language.Reflection.NameType 0
+
+data Language.Reflection.NativeTy 0
+
+data Language.Reflection.NullType 0
+
+data Language.Reflection.P 0
+
+data Language.Reflection.PVTy 0
+
+data Language.Reflection.PVar 0
+
+data Language.Reflection.ParentN 0
+
+data Language.Reflection.Pi 0
+
+data Language.Reflection.Quotable 2
+
+data Language.Reflection.RApp 0
+
+data Language.Reflection.RBind 0
+
+data Language.Reflection.RConstant 0
+
+data Language.Reflection.RType 0
+
+data Language.Reflection.RUType 0
+
+data Language.Reflection.Raw 0
+
+data Language.Reflection.RawPart 0
+
+data Language.Reflection.Ref 0
+
+data Language.Reflection.Refine 0
+
+data Language.Reflection.ReflConst 1
+
+data Language.Reflection.Reflect 0
+
+data Language.Reflection.Rewrite 0
+
+data Language.Reflection.SN 0
+
+data Language.Reflection.Search 0
+
+data Language.Reflection.Seq 0
+
+data Language.Reflection.Skip 0
+
+data Language.Reflection.Solve 0
+
+data Language.Reflection.SourceFC 0
+
+data Language.Reflection.SourceLocation 0
+
+data Language.Reflection.SpecialName 0
+
+data Language.Reflection.Str 0
+
+data Language.Reflection.StrType 0
+
+data Language.Reflection.SubReport 0
+
+data Language.Reflection.TCon 0
+
+data Language.Reflection.TConst 0
+
+data Language.Reflection.TT 0
+
+data Language.Reflection.TTName 0
+
+data Language.Reflection.TTUExp 0
+
+data Language.Reflection.TType 0
+
+data Language.Reflection.Tactic 0
+
+data Language.Reflection.TermPart 0
+
+data Language.Reflection.TextPart 0
+
+data Language.Reflection.TheWorld 0
+
+data Language.Reflection.Trivial 0
+
+data Language.Reflection.Try 0
+
+data Language.Reflection.UN 0
+
+data Language.Reflection.UType 0
+
+data Language.Reflection.UVal 0
+
+data Language.Reflection.UVar 0
+
+data Language.Reflection.Unfocus 0
+
+data Language.Reflection.UniqueType 0
+
+data Language.Reflection.Universe 0
+
+data Language.Reflection.V 0
+
+data Language.Reflection.Var 0
+
+data Language.Reflection.VoidType 0
+
+data Language.Reflection.WhereN 0
+
+data Language.Reflection.WithN 0
+
+data Language.Reflection.WorldType 0
+
+data Main.:: 0
+
+data Main.MyCons 0
+
+data Main.MyList 1
+
+data Main.MyNil 0
+
+data Main.Nil 0
+
+data Main.UList 1
+
+data Ownership.Borrowed 1
+
+data Ownership.Read 0
+
+data Prelude.Algebra.Monoid 1
+
+data Prelude.Algebra.Semigroup 1
+
+data Prelude.Applicative.Alternative 1
+
+data Prelude.Applicative.Applicative 1
+
+data Prelude.Basics.Dec 1
+
+data Prelude.Basics.No 0
+
+data Prelude.Basics.Yes 0
+
+data Prelude.Bool.Bool 0
+
+data Prelude.Bool.False 0
+
+data Prelude.Bool.True 0
+
+data Prelude.Cast.Cast 2
+
+data Prelude.Either.Either 2
+
+data Prelude.Either.Left 0
+
+data Prelude.Either.Right 0
+
+data Prelude.File.Append 0
+
+data Prelude.File.FHandle 0
+
+data Prelude.File.File 0
+
+data Prelude.File.FileError 0
+
+data Prelude.File.FileNotFound 0
+
+data Prelude.File.FileReadError 0
+
+data Prelude.File.FileWriteError 0
+
+data Prelude.File.GenericFileError 0
+
+data Prelude.File.Mode 0
+
+data Prelude.File.PermissionDenied 0
+
+data Prelude.File.Read 0
+
+data Prelude.File.ReadAppend 0
+
+data Prelude.File.ReadWrite 0
+
+data Prelude.File.ReadWriteTruncate 0
+
+data Prelude.File.WriteTruncate 0
+
+data Prelude.Foldable.Foldable 1
+
+data Prelude.Functor.Functor 1
+
+data Prelude.Interfaces.EQ 0
+
+data Prelude.Interfaces.Eq 1
+
+data Prelude.Interfaces.Fractional 1
+
+data Prelude.Interfaces.GT 0
+
+data Prelude.Interfaces.Integral 1
+
+data Prelude.Interfaces.LT 0
+
+data Prelude.Interfaces.MaxBound 1
+
+data Prelude.Interfaces.MinBound 1
+
+data Prelude.Interfaces.Neg 1
+
+data Prelude.Interfaces.Num 1
+
+data Prelude.Interfaces.Ord 1
+
+data Prelude.Interfaces.Ordering 0
+
+data Prelude.List.:: 0
+
+data Prelude.List.InBounds 3
+
+data Prelude.List.InFirst 0
+
+data Prelude.List.InLater 0
+
+data Prelude.List.IsNonEmpty 0
+
+data Prelude.List.List 1
+
+data Prelude.List.Nil 0
+
+data Prelude.List.NonEmpty 2
+
+data Prelude.Maybe.IsJust 2
+
+data Prelude.Maybe.ItIsJust 0
+
+data Prelude.Maybe.Just 0
+
+data Prelude.Maybe.Maybe 1
+
+data Prelude.Maybe.Nothing 0
+
+data Prelude.Monad.Monad 1
+
+data Prelude.Nat.Additive 0
+
+data Prelude.Nat.CmpEQ 0
+
+data Prelude.Nat.CmpGT 0
+
+data Prelude.Nat.CmpLT 0
+
+data Prelude.Nat.CmpNat 2
+
+data Prelude.Nat.GetAdditive 0
+
+data Prelude.Nat.GetMultiplicative 0
+
+data Prelude.Nat.LTE 2
+
+data Prelude.Nat.LTESucc 0
+
+data Prelude.Nat.LTEZero 0
+
+data Prelude.Nat.LeftIsNotZero 0
+
+data Prelude.Nat.Multiplicative 0
+
+data Prelude.Nat.Nat 0
+
+data Prelude.Nat.NotBothZero 2
+
+data Prelude.Nat.RightIsNotZero 0
+
+data Prelude.Nat.S 0
+
+data Prelude.Nat.Z 0
+
+data Prelude.Pairs.Element 0
+
+data Prelude.Pairs.Evidence 0
+
+data Prelude.Pairs.Exists 2
+
+data Prelude.Pairs.Subset 2
+
+data Prelude.Providers.Error 0
+
+data Prelude.Providers.Provide 0
+
+data Prelude.Providers.Provider 1
+
+data Prelude.Show.App 0
+
+data Prelude.Show.Backtick 0
+
+data Prelude.Show.Dollar 0
+
+data Prelude.Show.Eq 0
+
+data Prelude.Show.Open 0
+
+data Prelude.Show.Prec 0
+
+data Prelude.Show.PrefixMinus 0
+
+data Prelude.Show.Show 1
+
+data Prelude.Show.User 0
+
+data Prelude.Stream.:: 0
+
+data Prelude.Stream.Stream 1
+
+data Prelude.Strings.StrCons 0
+
+data Prelude.Strings.StrM 1
+
+data Prelude.Strings.StrNil 0
+
+data Prelude.Traversable.Traversable 1
+
+data Prelude.Uninhabited.Uninhabited 1
+
+data Prelude.WellFounded.Access 0
+
+data Prelude.WellFounded.Accessible 3
+
+data Prelude.WellFounded.WellFounded 2
+
+data Prelude.Enum 1
+
+data constructor of Decidable.Equality.DecEq 0
+
+data constructor of Language.Reflection.Quotable 0
+
+data constructor of Language.Reflection.ReflConst 0
+
+data constructor of Prelude.Algebra.Monoid 0
+
+data constructor of Prelude.Algebra.Semigroup 0
+
+data constructor of Prelude.Applicative.Alternative 0
+
+data constructor of Prelude.Applicative.Applicative 0
+
+data constructor of Prelude.Cast.Cast 0
+
+data constructor of Prelude.Foldable.Foldable 0
+
+data constructor of Prelude.Functor.Functor 0
+
+data constructor of Prelude.Interfaces.Eq 0
+
+data constructor of Prelude.Interfaces.Fractional 0
+
+data constructor of Prelude.Interfaces.Integral 0
+
+data constructor of Prelude.Interfaces.MaxBound 0
+
+data constructor of Prelude.Interfaces.MinBound 0
+
+data constructor of Prelude.Interfaces.Neg 0
+
+data constructor of Prelude.Interfaces.Num 0
+
+data constructor of Prelude.Interfaces.Ord 0
+
+data constructor of Prelude.Monad.Monad 0
+
+data constructor of Prelude.Show.Show 0
+
+data constructor of Prelude.Traversable.Traversable 0
+
+data constructor of Prelude.Uninhabited.Uninhabited 0
+
+data constructor of Prelude.WellFounded.WellFounded 0
+
+data constructor of Prelude.Enum 0

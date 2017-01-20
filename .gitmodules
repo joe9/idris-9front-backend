@@ -1,0 +1,3 @@
+[submodule "idris-py"]
+	path = idris-py
+	url = git@github.com:ziman/idris-py.git

@@ -1,0 +1,18 @@
+flags:
+  idris:
+    gmp: true
+    ffi: true
+nix:
+  enable: false
+  shell-file: stack-shell.nix
+packages:
+- location: '.'
+- location:
+    git: git@github.com:idris-lang/Idris-dev
+    commit: master
+  extra-dep: true
+extra-deps:
+- idris-0.99
+- libffi-0.1
+- trifecta-1.6
+resolver: lts-7.15

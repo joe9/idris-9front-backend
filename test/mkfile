@@ -1,0 +1,18 @@
+</$objtype/mkfile
+
+# build the hello.c file on linux using the command:
+#   cd /home/j/dev/apps/plan9/custom/idris-9front-backend/src/backend/test
+#   TMPDIR=/tmp/ghc stack exec idris -- hello.idr --codegen 9frontc --output hello.c
+
+all:
+        $CC -Fvw -I../../rts ../../rts/*.c test.c
+        $LD -o 8.test.out *.$O
+        ./8.test.out
+
+install:
+        mk
+        # cp hello /$objtype/bin
+
+clean:
+   rm *.$O
+   rm *.out

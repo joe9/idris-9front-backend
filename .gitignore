@@ -1,0 +1,6 @@
+*.ibc
+*.o
+*.8
+*.out
+dist
+.stack-work
