@@ -17,41 +17,41 @@ append : List a -> List a -> List a
 append Nil ys = ys
 append (Cons x xs) ys = Cons x (append xs ys)
 
--- DDC version
--- | Append two lists.
-append (xx yy: List a): List a
-    = case xx of
-        Nil -> yy
-        Cons x xs -> Cons x (append xs yy)
+-- -- DDC version
+-- -- | Append two lists.
+-- append (xx yy: List a): List a
+--     = case xx of
+--         Nil -> yy
+--         Cons x xs -> Cons x (append xs yy)
 
-append : List a -> List a -> List a
-append Nil ys = ys
-append (Cons x xs) ys = Cons x (append xs ys)
+-- append : List a -> List a -> List a
+-- append Nil ys = ys
+-- append (Cons x xs) ys = Cons x (append xs ys)
 
-append (xx yy: List a): List a
-    = case xx of
-        Nil -> yy
-        Cons x xs -> Cons x (append xs yy)
+-- append (xx yy: List a): List a
+--     = case xx of
+--         Nil -> yy
+--         Cons x xs -> Cons x (append xs yy)
 
-append (xs ys: List a): List a
-  Nil ys = ys
-  (Cons x xs) ys = Cons x (append xs yy)
+-- append (xs ys: List a): List a
+--   Nil ys = ys
+--   (Cons x xs) ys = Cons x (append xs yy)
 
--- Idris version
-append : Integer -> Integer -> Integer
-append 0 y = y
-append 1 y = 1 + y
+-- -- Idris version
+-- append : Integer -> Integer -> Integer
+-- append 0 y = y
+-- append 1 y = 1 + y
 
--- DDC version
--- pattern matching and the types are defined in most of the cases, why not integrate them?
-append (x y : Integer): Integer
-  = case x of
-         0 -> y
-         1 -> 1 + y
+-- -- DDC version
+-- -- pattern matching and the types are defined in most of the cases, why not integrate them?
+-- append (x y : Integer): Integer
+--   = case x of
+--          0 -> y
+--          1 -> 1 + y
 
-append (x y : Integer): Integer
-  | x == 0 = y
-  | otherwise = 1 + y
+-- append (x y : Integer): Integer
+--   | x == 0 = y
+--   | otherwise = 1 + y
 
 append1 : MyList1 -> MyList1 -> MyList1
 append1 MyNil ys = ys

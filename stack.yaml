@@ -1,27 +1,13 @@
-resolver: lts-7.15
-
-packages:
-  - location: .
-  - location: /home/j/dev/apps/plan9/custom/Idris-dev
-    extra-dep: true
-#   - location:
-#       git: git@github.com:joe9/Idris-dev
-#       commit: master
-#     extra-dep: true
-#   - location:
-#       git: git@github.com:idris-lang/Idris-dev
-#       commit: master
-#     extra-dep: true
-
 flags:
   idris:
-    FFI: true
-    GMP: true
-
+    gmp: true
+    ffi: true
+packages:
+- location: '.'
+- location: /home/j/dev/apps/plan9/custom/Idris-dev
+  extra-dep: true
 extra-deps:
-  - libffi-0.1
-  - trifecta-1.6
-
-nix:
-  enable: false
-  shell-file: stack-shell.nix
+- idris-0.99
+- libffi-0.1
+- trifecta-1.6
+resolver: lts-7.15

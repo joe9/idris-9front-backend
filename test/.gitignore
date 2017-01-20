@@ -7,3 +7,4 @@ test-vect.c
 8.*.out
 *.json
 *.py
+output.txt

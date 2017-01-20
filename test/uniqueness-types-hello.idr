@@ -60,10 +60,10 @@ showUList (x :: xs) = show x ++ " :: " ++ showUList xs
 main : IO ()
 main = do
   putStrLn "Hello world"
-  putStrLn (show (1000 + 2000))
-  putStrLn (show (100012323222232323223232223223232 + 2 + 3))
-  putStrLn (showMyList (append (MyCons 10 MyNil) (MyCons 20 (MyCons 30 MyNil))))
-  putStrLn (showMyList (append (MyCons 'a' MyNil) (MyCons 'b' (MyCons 'c' MyNil))))
-  putStrLn (show (myFun (MyCons 10 MyNil) 20))
-  putStrLn (showUList (dupList (10 :: Nil)))
-  putStrLn (show ((\x => x + 1) 2))
+--   putStrLn (show (1000 + 2000))
+--   putStrLn (show (100012323222232323223232223223232 + 2 + 3))
+--   putStrLn (showMyList (append (MyCons 10 MyNil) (MyCons 20 (MyCons 30 MyNil))))
+--   putStrLn (showMyList (append (MyCons 'a' MyNil) (MyCons 'b' (MyCons 'c' MyNil))))
+--   putStrLn (show (myFun (MyCons 10 MyNil) 20))
+--   putStrLn (showUList (dupList (10 :: Nil)))
+--   putStrLn (show ((\x => x + 1) 2))
